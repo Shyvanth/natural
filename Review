@@ -1,0 +1,39 @@
+I have learnt many things regarding confirmation and had a good collaboration with the team in this year.
+Bug Fixes and Enhancements
+Fixed a bug for FXNDF position wrapper while it was checking LATAM currency and non-deliverable attributes.
+Added test cases for these attributes.
+Enhanced Deemed Neg Confirmation for FXO to send the details to Drum to update confirm type and status.
+Added Waiver Exclusion Hours and SMC CP details.
+Learned how Drum status updates are triggered based on values.
+Updated FXO code to reflect user changes in Rcxml confirmations, ensuring manual updates are captured.
+Learned the reason why it was not updating as it was not using the similar base code as the other LOB'S.
+BAU Stories and Support
+Worked on BAU stories related to templates.
+Been in the support which has taught to better understand the workflow cycle and processes.
+Fixed a failed job (e.g., ges_feed job), made template changes, code updates.
+Template Updates
+Made changes to templates such as FXOBarriers, FXFVA, and FXOption for:
+Generating expected fallback survey paragraphs.
+Updating collateral amounts.
+Learnt few more template works in this time too with the help of team.
+Resolved issues for VSW and SWP trades with missing fields, ensuring successful datalink messaging when users enter fields manually, which given some better idea about feed errors.
+OPEX Contributions
+Added and updated columns in the board:
+Included the Cpty Type column and removed duplicate Book Region.
+Created new containers for Affirmation, Conformability, Chasing and Issuance task priority logic.
+Added logic for the Ultimate Parent column, logic for auto priority updation for all chasing tasks.
+Learned to fetch values from Cesium and use DAG functions.
+Affirmation Workflow Improvements
+Enhanced functionality for all Affirmation tasks:
+Added definitions for Trade Date, Product, Entity, Event Type, and Admin ID columns.
+Updated edit/close functionality to prevent confirmation status updates in Drum.
+Populated Affirmation workflow values for columns with different Instigating Data Objects.
+Chasing Workflow Implementation
+Built an email panel similar to Affirmation:
+Learned about the Chasing workflow.
+Implemented functionality for replying, replying all, forwarding, and attaching files to emails.
+Added an insert template feature to automate email population for selected templates.
+DFX Metrics Sheet
+Took responsibility for preparing the DFX metrics sheet for teams Vajra and Garnet.
+SBE and Dev Signoff
+Learned the significance of and development signoffs for generating new logic outputs.
